@@ -1,7 +1,6 @@
 var outputNums = [];
 
-function pongping(number) {
-
+function pingPong(number) {
 for (var i = 1; i <= number; i++) {
   if (i % 3 === 0) {
     outputNums.push("ping");
@@ -12,16 +11,18 @@ for (var i = 1; i <= number; i++) {
   } else {outputNums.push(i);
   };
 };
-  outputNums = outputNums.join(" ");
+  for (var i = 0; i < outputNums.length; i++) {
+    $("ul").append("<li>" + outputNums[i] + "</li>");
+  }
 };
 
+
+
+
 $(document).ready(function() {
-  $("form#form").submit(function(event) {
+  $("#form").submit(function(event) {
   var input = $("#input").val();
-
-pongping(input);
-
-$("#output").append("<li>" + outputNums + "</li>");
+  pingPong(input);
   event.preventDefault();
   });
 });
