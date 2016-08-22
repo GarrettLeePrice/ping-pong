@@ -1,12 +1,14 @@
 # _Ping-Pong_
 
-#### _The program counts up to a specified number, while replacing every number divisible by three with the word "ping", every number divisible by five with the word "pong" and every word divisible by fifteen with the word "pingpong"._
+#### _The program counts up to a specified number, while replacing every number divisible by three with the word "ping", every number divisible by five with the word "pong" and every number divisible by fifteen with the word "pingpong"._
 
 #### By _**Garrett Price**_
 
 ## Description
 
-_User enters a number and the program outputs counting to that number and replacing specific numbers in the sequence with "ping", "pong" or "pingpong".
+User enters a number and the program outputs counting to that number and replacing specific numbers in the sequence with "ping", "pong" or "pingpong".
+
+See http://garrettleeprice.github.io/ping-pong
 
 ## Setup/Installation Requirements
 
