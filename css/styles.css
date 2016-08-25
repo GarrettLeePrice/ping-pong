@@ -1,7 +1,3 @@
-/*h1 {
-  text-align: center;
-  font-size: 40pt;
-}*/
 #centerText {
   margin-left: 30%;
   margin-top: 8%;
@@ -14,6 +10,7 @@
 body {
   background-color: #DCDCDC;
 }
+
 #sidebar {
   float: left;
   margin-top: 4%;
@@ -22,19 +19,19 @@ body {
   padding-left: 20px;
   padding-right: 50px;
   padding-top: 27px;
-  padding-bottom: 75%;
+  padding-bottom: 100%;
 }
 
 #sidebar h3 {
-  color: #FFE4C4
+  color: #FFE4C4;
 }
 
 #sidebar h4 {
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 #sidebar h5 {
-  color: #3333ff;
+  color: #33f;
 }
 
 #rules {
@@ -42,26 +39,24 @@ body {
 }
 
 #form {
-margin-top: -32px;
+  margin-top: -32px;
   margin-left: 23%;
   float: left;
 }
 
 ul {
-    margin-left: 31%;
-    padding: 0;
+  margin-left: 31%;
+  padding: 0;
 }
+
 #header {
-background-color: #FFE4C4;
-padding-top: 50px;
-padding-bottom: 50px;
-margin-top: none;
-text-align: center;
+  background-color: #FFE4C4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: none;
+  text-align: center;
 }
+
 #header h1 {
   font-size: 40pt;
 }
-
-/*h4 {
-  text-align: center;
-}*/
