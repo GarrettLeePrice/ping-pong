@@ -36,27 +36,15 @@ _{HTML, CSS, Javascript}_
     - Example Input: 6
     - Example Output: 1,2,3,4,5,6
 
-* The program can verify if any number in the sequence is divisible by 3.
-    - Example Input: 4
-    - Example Output: 1,2,(3),4
-
-* The program can replace any number divisible by three with "ping".
+* The program can verify if any number in the sequence is divisible by 3, and if true, replace it with the word "ping".
     - Example Input: 4
     - Example Output: 1,2,"ping",4
 
-* The program can verify if any number in the sequence is divisible by 5.
-    - Example Input: 6
-    - Example Output: 1,2,3,4,(5),6,7
-
-* The program can replace any number divisible by 5 with "pong".
+* The program can verify if any number in the sequence is divisible by 5, and if true, replace it with the word "pong"
     - Example Input: 6
     - Example Output: 1,2,3,4,"pong",6
 
-* The program can verify if any number in the sequence is divisible by 15.
-    - Example Input: 16
-    - Example Output: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,(15),16
-
-* The program can replace any number in the sequence that is divisible by 15 with the word "pingpong"
+* The program can verify if any number in the sequence is divisible by 15, and if true, replace it with the words "pingpong"
     - Example Input: 16
     - Example Output: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,"pingpong",16.
 
